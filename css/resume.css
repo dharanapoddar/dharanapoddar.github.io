@@ -241,3 +241,11 @@ input[type="submit"]:hover{
   border:1px solid #F58703;
 }
 
+@media (max-width: 412px) {
+  .interest {
+    padding-top: 15px;
+	 padding-bottom: 25px;
+    
+  }
+}
+
