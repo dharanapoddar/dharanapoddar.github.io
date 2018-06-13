@@ -20,7 +20,45 @@ body {
    color:#BD5D38;
 	font-size: 25px;
   }
+  
+  .project-img {
+    padding: 1.5em;
+    background: #f5810b;
+    position: absolute;
+    top: -15%;
+    left: 10%;
+    width: 80%;
+}
+.project-text {
+   color:#BD5D38;
+	font-size: 25px;
+  }
+  
+  .project img{
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
 
+
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+	
+}
+  
+ img.logo-scrum {
+ height :100px;
+ }
+  
+
+ .project-img
+ {
+	 height:150px;
+ }
 
 @media (min-width: 992px) {
   body {
